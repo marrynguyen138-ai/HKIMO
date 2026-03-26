@@ -918,5 +918,186 @@ export const exams: Exam[] = [
         explanation: "6 cách."
       }
     ]
+  },
+  {
+    id: 6,
+    title: "Đề số 6 (Vòng quốc gia)",
+    questions: [
+      {
+        id: 1,
+        text: "Dựa vào quy luật, tìm số trong chỗ trống: 5, 9, 14, 20, 27, 35, __",
+        options: ["44", "43", "45", "42"],
+        correctAnswer: 0,
+        explanation: "Quy luật cộng tăng dần: 5+4=9, 9+5=14, 14+6=20, 20+7=27, 27+8=35. Số tiếp theo là 35+9=44."
+      },
+      {
+        id: 2,
+        text: "Dựa vào quy luật, tìm chữ cái trong chỗ trống: P, o, N, n, L, m, J, __",
+        options: ["k", "l", "i", "j"],
+        correctAnswer: 1,
+        explanation: "Chữ in hoa lùi 2 bước: P, N, L, J. Chữ thường lùi 1 bước: o, n, m. Chữ tiếp theo là l."
+      },
+      {
+        id: 3,
+        text: "Alice cần 5 phút đi từ nhà đến canteen. Cô ấy mang tối đa 3 phần ăn. Hỏi tối đa mang được bao nhiêu phần về nhà trong 35 phút (bắt đầu từ canteen)?",
+        options: ["9", "12", "15", "18"],
+        correctAnswer: 1,
+        explanation: "0p: Canteen (lấy 3), 5p: Nhà, 10p: Canteen, 15p: Nhà, 20p: Canteen, 25p: Nhà, 30p: Canteen, 35p: Nhà. Tổng cộng 4 lần mang về, mỗi lần 3 phần: 4 x 3 = 12."
+      },
+      {
+        id: 4,
+        text: "Nếu ngày 16 tháng 4 năm 2020 là thứ Tư, thì ngày 19 tháng 9 năm 2020 là thứ mấy?",
+        options: ["Thứ Năm", "Thứ Sáu", "Thứ Bảy", "Chủ nhật"],
+        correctAnswer: 1,
+        explanation: "Tổng số ngày từ 16/4 đến 19/9 là 156 ngày. 156 chia 7 dư 2. Thứ Tư + 2 ngày = Thứ Sáu."
+      },
+      {
+        id: 5,
+        text: "Dựa vào quy luật, hỏi có bao nhiêu dấu * trong nhóm thứ 10?",
+        options: ["81", "90", "100", "110"],
+        correctAnswer: 1,
+        explanation: "Nhóm n có n*(n-1) dấu *. Nhóm 10 có 10 x 9 = 90."
+      },
+      {
+        id: 6,
+        text: "Tìm giá trị của: 256 + 369 + 248 + 352 + 244 + 331",
+        options: ["1800", "1700", "1900", "1600"],
+        correctAnswer: 0,
+        explanation: "(256+244) + (248+352) + (369+331) = 500 + 600 + 700 = 1800."
+      },
+      {
+        id: 7,
+        text: "Tìm giá trị của: 38 + 83 + 27 + 72 + 65 + 56 + 14 + 41",
+        options: ["386", "396", "406", "416"],
+        correctAnswer: 1,
+        explanation: "(38+72) + (83+27) + (65+56) + (14+41) = 110 + 110 + 121 + 55 = 396."
+      },
+      {
+        id: 8,
+        text: "Tìm giá trị của: 38 x 23 + 19 x 30 + 38 x 12",
+        options: ["1800", "1900", "2000", "2100"],
+        correctAnswer: 1,
+        explanation: "38 x (23+12) + 19 x 30 = 38 x 35 + 19 x 30 = 19 x 70 + 19 x 30 = 19 x 100 = 1900."
+      },
+      {
+        id: 9,
+        text: "Tìm số điền vào chỗ trống: __ / 9 + 18 = 27",
+        options: ["72", "81", "90", "63"],
+        correctAnswer: 1,
+        explanation: "x/9 = 27 - 18 = 9 => x = 81."
+      },
+      {
+        id: 10,
+        text: "Nếu AA + BA = 114 (A, B là chữ số khác nhau), giá trị lớn nhất của B là?",
+        options: ["7", "8", "9", "6"],
+        correctAnswer: 2,
+        explanation: "12A + 10B = 114. Nếu A=2 thì B=9 (lớn nhất)."
+      },
+      {
+        id: 11,
+        text: "80 học sinh có tổng điểm là số lẻ. 65 em điểm lẻ, 14 em điểm chẵn. Em còn lại điểm lẻ hay chẵn?",
+        options: ["Lẻ", "Chẵn", "Không xác định", "Cả hai"],
+        correctAnswer: 1,
+        explanation: "Tổng (65 lẻ + 14 chẵn + X) = Lẻ. Lẻ + Chẵn + X = Lẻ => X phải là Chẵn."
+      },
+      {
+        id: 12,
+        text: "Alice có 79 xu, Peter có 153 xu. Peter phải cho Alice bao nhiêu để hai người bằng nhau?",
+        options: ["37", "38", "39", "40"],
+        correctAnswer: 0,
+        explanation: "(153 - 79) / 2 = 37."
+      },
+      {
+        id: 13,
+        text: "Điền dấu + hoặc - vào chỗ trống: 6 _ 3 _ 5 _ 4 = 12",
+        options: ["- + +", "+ - +", "+ + -", "- - +"],
+        correctAnswer: 0,
+        explanation: "6 - 3 + 5 + 4 = 12."
+      },
+      {
+        id: 14,
+        text: "Tìm số thứ 10 trong dãy: 299, 284, 269, 254, 239...",
+        options: ["164", "149", "179", "154"],
+        correctAnswer: 0,
+        explanation: "Dãy trừ 15. Số thứ 10 = 299 - 9 x 15 = 164."
+      },
+      {
+        id: 15,
+        text: "Tìm số lẻ lớn nhất có 4 chữ số khác nhau.",
+        options: ["9875", "9876", "9873", "9871"],
+        correctAnswer: 0,
+        explanation: "9875."
+      },
+      {
+        id: 16,
+        text: "Một hình chóp có 13 mặt. Hỏi hình chóp đó có bao nhiêu cạnh?",
+        options: ["24", "26", "13", "12"],
+        correctAnswer: 0,
+        explanation: "Hình chóp 13 mặt => đáy là đa giác 12 cạnh. Số cạnh = 12 x 2 = 24."
+      },
+      {
+        id: 17,
+        text: "Nhìn từ trên xuống thấy ít nhất bao nhiêu mặt lập phương?",
+        options: ["10", "12", "14", "11"],
+        correctAnswer: 1,
+        explanation: "Theo đáp án: 12."
+      },
+      {
+        id: 18,
+        text: "Có bao nhiêu đoạn thẳng trong hình vẽ?",
+        options: ["20", "22", "24", "26"],
+        correctAnswer: 2,
+        explanation: "Theo đáp án: 24."
+      },
+      {
+        id: 19,
+        text: "Dựa vào quy luật, tìm hình trong chỗ trống: ● ▓ ▲ ● ▲ ● ▓ ▲ ● ▲ ● __ ▲ ●",
+        options: ["●", "▓", "▲", "■"],
+        correctAnswer: 1,
+        explanation: "Chu kỳ: ● ▓ ▲ ● ▲. Hình tiếp theo là ▓."
+      },
+      {
+        id: 20,
+        text: "Có bao nhiêu góc trong trong đa giác đã cho?",
+        options: ["10", "11", "12", "13"],
+        correctAnswer: 2,
+        explanation: "Theo đáp án: 12."
+      },
+      {
+        id: 21,
+        text: "Có bao nhiêu số lẻ có 3 chữ số mà chữ số hàng chục nhỏ hơn 6?",
+        options: ["270", "300", "250", "280"],
+        correctAnswer: 0,
+        explanation: "Hàng trăm: 9 cách, hàng chục: 6 cách (0-5), hàng đơn vị: 5 cách (1,3,5,7,9). 9 x 6 x 5 = 270."
+      },
+      {
+        id: 22,
+        text: "Có bao nhiêu số chẵn từ số thứ 9 đến số thứ 27 trong dãy: 3, 4, 5, 5, 6, 7, 7, 8, 9, 9, 10...",
+        options: ["5", "6", "7", "8"],
+        correctAnswer: 1,
+        explanation: "Theo đáp án: 6."
+      },
+      {
+        id: 23,
+        text: "Một cửa hàng kem có 15 loại kem. Chọn ngẫu nhiên 4 loại, có bao nhiêu cách kết hợp?",
+        options: ["1365", "1465", "1265", "1565"],
+        correctAnswer: 0,
+        explanation: "15C4 = 1365."
+      },
+      {
+        id: 24,
+        text: "Alice cho Mark 4 quả bóng và lấy 6 quả từ David thì 3 người bằng nhau. David hơn Mark bao nhiêu quả lúc đầu?",
+        options: ["8", "10", "12", "14"],
+        correctAnswer: 1,
+        explanation: "David = Mark + 10."
+      },
+      {
+        id: 25,
+        text: "Lập số có 3 chữ số từ 0, 1, 4, 6, 9. Hiệu giữa số lớn nhất và nhỏ nhất là?",
+        options: ["860", "850", "840", "870"],
+        correctAnswer: 0,
+        explanation: "964 - 104 = 860."
+      }
+    ]
   }
 ];
